@@ -1,8 +1,8 @@
+**Kubernetes_PAG_Mysql**
 
-#Kubernetes_PAG_Mysql
-##PROMETHEUS + ALERTMANAGER + GARFANA + KUBERNETES + HELM + MINIKUBE 
+**PROMETHEUS + ALERTMANAGER + GARFANA + KUBERNETES + HELM + MINIKUBE**
 
-####Configure Prometheus with alertmanager on grafana UI for mysql instance STACK and provisioned on kubernetes cluster using minikube
+**Configure Prometheus with alertmanager on grafana UI for mysql instance STACK and provisioned on kubernetes cluster using minikube**
 
 Used helm to install prometheus,alertmanager,grafana and MySQL server instance and also enable slow-log query. I have used customized grafana dashboard for MySQL instance which will show you MySQL POD status, Slow log query, handles, create/drop DB status.
 
@@ -10,7 +10,7 @@ Used helm to install prometheus,alertmanager,grafana and MySQL server instance a
 Please follow below steps to provisioned Prometheus with alertmanager on grafana UI for mysql instance on kubernetes cluster using minikube.
 
 ```
-$ git clone (https://github.com/manukoli1986/Kubernetes_PAG_Mysql-.git)
+$ git clone https://github.com/manukoli1986/Kubernetes_PAG_Mysql-.git
 ```
 
 You will see below output once you create prometheus and grafana with customized values.yaml
